@@ -9,7 +9,7 @@ var {
 } = React;
 
 var globals = require('./globals');
-var schedule = require('./schedule')
+var schedule = require('./openSourceNorthSchedule')
 var SessionDetails = require('./sessionDetails');
 var styles = require('./styles');
 var _ = require('lodash');
@@ -36,7 +36,7 @@ var SessionList = React.createClass({
     var thisSessionList = this;
 
     var sessions = _.filter(schedule, function(session){
-      return session[0] === thisSessionList.props.day;
+      return session[0] === thisSessionList.props.tab;
     });
 
     var sessionGroups = _.groupBy(sessions, function(session){
@@ -71,16 +71,17 @@ var SessionList = React.createClass({
 
   renderRow(rowData) {
     var thisSessionList = this;
+    var columnIndex = this.props.tab == 'Sessions' ? 6 : this.props.tab == 'Speakers' ? 3 : 4;
 
     return (
       <TouchableHighlight onPress={() => {
         thisSessionList.props.navigator.push({
           component: SessionDetails,
           title: appTitle,
-          passProps: { sessionData: rowData }
+          passProps: { sessionData: rowData, columnIndex: columnIndex }
         })}}>
         <View style={styles.row}>
-          <Text style={styles.rowText}>{rowData[6]}</Text>
+          <Text style={styles.rowText}>{rowData[columnIndex]}</Text>
         </View>
       </TouchableHighlight>
     );
@@ -89,7 +90,7 @@ var SessionList = React.createClass({
   renderSectionHeader(sectionData, sectionID) {
     return (
       <View style={styles.sectionHeader}>
-        <Text style={styles.sectionHeaderText}>{this.props.day} {sectionID} Sessions</Text>
+        <Text style={styles.sectionHeaderText}>{sectionID} {this.props.tab}</Text>
       </View>
     );
   }

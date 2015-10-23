@@ -2,6 +2,8 @@
 
 var styles = {
   field: {
+    flex: 1,
+    flexDirection: 'row',
     fontSize: 16
   },
   horizontal: {

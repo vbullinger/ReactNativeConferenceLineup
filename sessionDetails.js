@@ -10,20 +10,21 @@ var styles = require('./styles');
 
 var SessionDetails = React.createClass({
   render: function() {
+  debugger;
     var sessionData = this.props.sessionData;
-    console.log(sessionData);
+    var columnIndex = this.props.columnIndex;
 
     return (
       <View style={styles.flex}>
         <Text style={styles.title}>
-          {sessionData[6]}
+          {sessionData[columnIndex]}
         </Text>
         <View style={styles.horizontal}>
           <Text style={styles.label}>
-            Day:
+            Title:
           </Text>
           <Text style={styles.field}>
-            {sessionData[0]}
+            {sessionData[6]}
           </Text>
         </View>
         <View style={styles.horizontal}>
@@ -52,18 +53,10 @@ var SessionDetails = React.createClass({
         </View>
         <View style={styles.horizontal}>
           <Text style={styles.label}>
-            Category:
+            Track:
           </Text>
           <Text style={styles.field}>
             {sessionData[4]}
-          </Text>
-        </View>
-        <View style={styles.horizontal}>
-          <Text style={styles.label}>
-            Level:
-          </Text>
-          <Text style={styles.field}>
-            {sessionData[5]}
           </Text>
         </View>
       </View>

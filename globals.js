@@ -1,3 +1,3 @@
 module.exports = {
-  appTitle: 'That Conference Session Lineup'
+  appTitle: 'Open Source North Session Lineup'
 };

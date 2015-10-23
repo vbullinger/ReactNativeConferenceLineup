@@ -12,7 +12,7 @@ var {
 var globals = require('./globals');
 var styles = require('./styles');
 var SessionList = require('./sessionList');
-var tabIcon = { uri: 'TCTree' };
+var tabIcon = { uri: 'OSNTree' };
 
 var appTitle = globals.appTitle;
 
@@ -23,7 +23,7 @@ var ConferenceLineup = React.createClass({
   })},
   getInitialState: function() {
     return {
-      selectedTab: 'Monday'
+      selectedTab: 'Sessions'
     };
   },
   render: function() {
@@ -32,43 +32,43 @@ var ConferenceLineup = React.createClass({
         barTintColor="#eee">
         <TabBarIOS.Item
           icon={tabIcon}
-          title="Monday"
-          selected={this.state.selectedTab === 'Monday'}
-          onPress={() => this.changeTab(this, 'Monday')}>
+          title="Sessions"
+          selected={this.state.selectedTab === 'Sessions'}
+          onPress={() => this.changeTab(this, 'Sessions')}>
           <NavigatorIOS
             initialRoute={{
               component: SessionList,
               title: appTitle,
-              passProps: { day: 'Monday' },
+              passProps: { tab: 'Sessions' },
             }}
             style={styles.flex}
           />
         </TabBarIOS.Item>
         <TabBarIOS.Item
           icon={tabIcon}
-          title="Tuesday"
+          title="Speakers"
           badge={this.state.notifCount > 0 ? this.state.notifCount : undefined}
-          selected={this.state.selectedTab === 'Tuesday'}
-          onPress={() => this.changeTab(this, 'Tuesday')}>
+          selected={this.state.selectedTab === 'Speakers'}
+          onPress={() => this.changeTab(this, 'Speakers')}>
           <NavigatorIOS
             initialRoute={{
               component: SessionList,
               title: appTitle,
-              passProps: { day: 'Tuesday' },
+              passProps: { tab: 'Speakers' },
             }}
             style={styles.flex}
           />
         </TabBarIOS.Item>
         <TabBarIOS.Item
           icon={tabIcon}
-          title="Wednesday"
-          selected={this.state.selectedTab === 'Wednesday'}
-          onPress={() => this.changeTab(this, 'Wednesday')}>
+          title="Tracks"
+          selected={this.state.selectedTab === 'Tracks'}
+          onPress={() => this.changeTab(this, 'Tracks')}>
           <NavigatorIOS
             initialRoute={{
               component: SessionList,
               title: appTitle,
-              passProps: { day: 'Wednesday' },
+              passProps: { tab: 'Tracks' },
             }}
             style={styles.flex}
           />

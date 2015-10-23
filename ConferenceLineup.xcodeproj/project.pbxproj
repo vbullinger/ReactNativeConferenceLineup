@@ -31,13 +31,16 @@
 		615E3F261B79290100A9CC67 /* globals.js in Resources */ = {isa = PBXBuildFile; fileRef = 615E3F251B79290100A9CC67 /* globals.js */; };
 		615E3F2A1B79371B00A9CC67 /* sessionDetails.js in Resources */ = {isa = PBXBuildFile; fileRef = 615E3F291B79371B00A9CC67 /* sessionDetails.js */; };
 		615E3F2C1B79381F00A9CC67 /* sessionDetails.styles.js in Resources */ = {isa = PBXBuildFile; fileRef = 615E3F2B1B79381F00A9CC67 /* sessionDetails.styles.js */; };
+		6166432B1BBFB6F0001794CC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6166431B1BBFB6F0001794CC /* icon.png */; settings = {ASSET_TAGS = (); }; };
+		6166432E1BBFBB3E001794CC /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 6166432D1BBFBB3E001794CC /* splash.png */; settings = {ASSET_TAGS = (); }; };
 		618AC67D1B6A9C8B0094B47E /* sessionList.styles.js in Resources */ = {isa = PBXBuildFile; fileRef = 618AC67C1B6A9C8B0094B47E /* sessionList.styles.js */; };
+		6197542C1BBF826A00289148 /* openSourceNorthSchedule.js in Resources */ = {isa = PBXBuildFile; fileRef = 6197542B1BBF826A00289148 /* openSourceNorthSchedule.js */; settings = {ASSET_TAGS = (); }; };
 		61E93EB91B611376004EFA90 /* index.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = 61E93EB81B611376004EFA90 /* index.ios.js */; };
 		61E93ECE1B612256004EFA90 /* conferenceLineup.js in Resources */ = {isa = PBXBuildFile; fileRef = 61E93ECD1B612256004EFA90 /* conferenceLineup.js */; };
 		61E93ED01B61635E004EFA90 /* conferenceLineup.styles.js in Resources */ = {isa = PBXBuildFile; fileRef = 61E93ECF1B61635E004EFA90 /* conferenceLineup.styles.js */; };
 		61E93ED21B616883004EFA90 /* node_modules in Resources */ = {isa = PBXBuildFile; fileRef = 61E93ED11B616883004EFA90 /* node_modules */; };
 		61E93EDE1B616C3F004EFA90 /* sessionList.js in Resources */ = {isa = PBXBuildFile; fileRef = 61E93EDD1B616C3F004EFA90 /* sessionList.js */; };
-		61E93EE01B654E5A004EFA90 /* schedule.js in Resources */ = {isa = PBXBuildFile; fileRef = 61E93EDF1B654E5A004EFA90 /* schedule.js */; };
+		61E93EE01B654E5A004EFA90 /* thatConferenceSchedule.js in Resources */ = {isa = PBXBuildFile; fileRef = 61E93EDF1B654E5A004EFA90 /* thatConferenceSchedule.js */; };
 		61EFEE011B6F8A9400E4C647 /* styles.js in Resources */ = {isa = PBXBuildFile; fileRef = 61EFEE001B6F8A9400E4C647 /* styles.js */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 /* End PBXBuildFile section */
@@ -151,13 +154,16 @@
 		615E3F251B79290100A9CC67 /* globals.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = globals.js; sourceTree = "<group>"; };
 		615E3F291B79371B00A9CC67 /* sessionDetails.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sessionDetails.js; sourceTree = "<group>"; };
 		615E3F2B1B79381F00A9CC67 /* sessionDetails.styles.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sessionDetails.styles.js; sourceTree = "<group>"; };
+		6166431B1BBFB6F0001794CC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../IonicIconGenerator/resources/ios/icon/icon.png; sourceTree = "<group>"; };
+		6166432D1BBFBB3E001794CC /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = ../IonicIconGenerator/resources/splash.png; sourceTree = "<group>"; };
 		618AC67C1B6A9C8B0094B47E /* sessionList.styles.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sessionList.styles.js; sourceTree = "<group>"; };
+		6197542B1BBF826A00289148 /* openSourceNorthSchedule.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = openSourceNorthSchedule.js; sourceTree = "<group>"; };
 		61E93EB81B611376004EFA90 /* index.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.ios.js; sourceTree = "<group>"; };
 		61E93ECD1B612256004EFA90 /* conferenceLineup.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = conferenceLineup.js; sourceTree = "<group>"; };
 		61E93ECF1B61635E004EFA90 /* conferenceLineup.styles.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = conferenceLineup.styles.js; sourceTree = "<group>"; };
 		61E93ED11B616883004EFA90 /* node_modules */ = {isa = PBXFileReference; lastKnownFileType = folder; path = node_modules; sourceTree = "<group>"; };
 		61E93EDD1B616C3F004EFA90 /* sessionList.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sessionList.js; sourceTree = "<group>"; };
-		61E93EDF1B654E5A004EFA90 /* schedule.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = schedule.js; sourceTree = "<group>"; };
+		61E93EDF1B654E5A004EFA90 /* thatConferenceSchedule.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = thatConferenceSchedule.js; sourceTree = "<group>"; };
 		61EFEE001B6F8A9400E4C647 /* styles.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = styles.js; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
@@ -278,7 +284,8 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				61E93EDF1B654E5A004EFA90 /* schedule.js */,
+				61E93EDF1B654E5A004EFA90 /* thatConferenceSchedule.js */,
+				6197542B1BBF826A00289148 /* openSourceNorthSchedule.js */,
 				612035531B57E0990087EEB8 /* Styles */,
 			);
 			name = ConferenceLineup;
@@ -316,6 +323,8 @@
 		615E3EF01B738E8900A9CC67 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6166432D1BBFBB3E001794CC /* splash.png */,
+				6166431B1BBFB6F0001794CC /* icon.png */,
 				615E3F1D1B739C9600A9CC67 /* AppIcon80.png */,
 				615E3F1E1B739C9600A9CC67 /* AppIcon87.png */,
 				615E3F1F1B739C9600A9CC67 /* AppIcon120.png */,
@@ -431,6 +440,9 @@
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 9U654TLRLR;
 					};
 				};
 			};
@@ -592,11 +604,14 @@
 				61E93ECE1B612256004EFA90 /* conferenceLineup.js in Resources */,
 				61E93ED01B61635E004EFA90 /* conferenceLineup.styles.js in Resources */,
 				615E3F2C1B79381F00A9CC67 /* sessionDetails.styles.js in Resources */,
-				61E93EE01B654E5A004EFA90 /* schedule.js in Resources */,
+				61E93EE01B654E5A004EFA90 /* thatConferenceSchedule.js in Resources */,
 				61E93EB91B611376004EFA90 /* index.ios.js in Resources */,
 				615E3F1C1B739B9300A9CC67 /* AppIcon.png in Resources */,
+				6197542C1BBF826A00289148 /* openSourceNorthSchedule.js in Resources */,
+				6166432B1BBFB6F0001794CC /* icon.png in Resources */,
 				615E3F221B739C9600A9CC67 /* AppIcon87.png in Resources */,
 				61E93EDE1B616C3F004EFA90 /* sessionList.js in Resources */,
+				6166432E1BBFBB3E001794CC /* splash.png in Resources */,
 				61E93ED21B616883004EFA90 /* node_modules in Resources */,
 				615E3F261B79290100A9CC67 /* globals.js in Resources */,
 				615E3F231B739C9600A9CC67 /* AppIcon120.png in Resources */,
@@ -686,7 +701,9 @@
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = OSNAppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -696,13 +713,17 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ConferenceLineup;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = OSNAppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -712,6 +733,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ConferenceLineup;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
