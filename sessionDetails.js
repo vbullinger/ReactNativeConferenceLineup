@@ -51,14 +51,6 @@ var SessionDetails = React.createClass({
             {sessionData[3]}
           </Text>
         </View>
-        <View style={styles.horizontal}>
-          <Text style={styles.label}>
-            Track:
-          </Text>
-          <Text style={styles.field}>
-            {sessionData[4]}
-          </Text>
-        </View>
       </View>
     );
   }

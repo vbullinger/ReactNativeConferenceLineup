@@ -9,7 +9,7 @@ var {
 } = React;
 
 var globals = require('./globals');
-var schedule = require('./openSourceNorthSchedule')
+var schedule = require('./tccc19Schedule')
 var SessionDetails = require('./sessionDetails');
 var styles = require('./styles');
 var _ = require('lodash');
@@ -71,7 +71,7 @@ var SessionList = React.createClass({
 
   renderRow(rowData) {
     var thisSessionList = this;
-    var columnIndex = this.props.tab == 'Sessions' ? 6 : this.props.tab == 'Speakers' ? 3 : 4;
+    var columnIndex = this.props.tab == 'Sessions' ? 6 : this.props.tab == 'Speakers' ? 3 : 2;
 
     return (
       <TouchableHighlight onPress={() => {
