@@ -10,7 +10,6 @@ var styles = require('./styles');
 
 var SessionDetails = React.createClass({
   render: function() {
-  debugger;
     var sessionData = this.props.sessionData;
     var columnIndex = this.props.columnIndex;
 

@@ -35,6 +35,7 @@
 		6166432B1BBFB6F0001794CC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6166431B1BBFB6F0001794CC /* icon.png */; settings = {ASSET_TAGS = (); }; };
 		6166432E1BBFBB3E001794CC /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 6166432D1BBFBB3E001794CC /* splash.png */; settings = {ASSET_TAGS = (); }; };
 		618AC67D1B6A9C8B0094B47E /* sessionList.styles.js in Resources */ = {isa = PBXBuildFile; fileRef = 618AC67C1B6A9C8B0094B47E /* sessionList.styles.js */; };
+		618E15D51BED275200B8AC9C /* cvcc8Schedule.js in Resources */ = {isa = PBXBuildFile; fileRef = 618E15D41BED275200B8AC9C /* cvcc8Schedule.js */; settings = {ASSET_TAGS = (); }; };
 		6197542C1BBF826A00289148 /* openSourceNorthSchedule.js in Resources */ = {isa = PBXBuildFile; fileRef = 6197542B1BBF826A00289148 /* openSourceNorthSchedule.js */; settings = {ASSET_TAGS = (); }; };
 		61E93EB91B611376004EFA90 /* index.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = 61E93EB81B611376004EFA90 /* index.ios.js */; };
 		61E93ECE1B612256004EFA90 /* conferenceLineup.js in Resources */ = {isa = PBXBuildFile; fileRef = 61E93ECD1B612256004EFA90 /* conferenceLineup.js */; };
@@ -159,6 +160,7 @@
 		6166431B1BBFB6F0001794CC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../IonicIconGenerator/resources/ios/icon/icon.png; sourceTree = "<group>"; };
 		6166432D1BBFBB3E001794CC /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = ../IonicIconGenerator/resources/splash.png; sourceTree = "<group>"; };
 		618AC67C1B6A9C8B0094B47E /* sessionList.styles.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sessionList.styles.js; sourceTree = "<group>"; };
+		618E15D41BED275200B8AC9C /* cvcc8Schedule.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cvcc8Schedule.js; sourceTree = "<group>"; };
 		6197542B1BBF826A00289148 /* openSourceNorthSchedule.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = openSourceNorthSchedule.js; sourceTree = "<group>"; };
 		61E93EB81B611376004EFA90 /* index.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.ios.js; sourceTree = "<group>"; };
 		61E93ECD1B612256004EFA90 /* conferenceLineup.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = conferenceLineup.js; sourceTree = "<group>"; };
@@ -290,6 +292,7 @@
 				611CE48D1BDAE9E000299F9B /* tccc19Schedule.js */,
 				6197542B1BBF826A00289148 /* openSourceNorthSchedule.js */,
 				612035531B57E0990087EEB8 /* Styles */,
+				618E15D41BED275200B8AC9C /* cvcc8Schedule.js */,
 			);
 			name = ConferenceLineup;
 			sourceTree = "<group>";
@@ -619,6 +622,7 @@
 				61E93ED21B616883004EFA90 /* node_modules in Resources */,
 				615E3F261B79290100A9CC67 /* globals.js in Resources */,
 				615E3F231B739C9600A9CC67 /* AppIcon120.png in Resources */,
+				618E15D51BED275200B8AC9C /* cvcc8Schedule.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

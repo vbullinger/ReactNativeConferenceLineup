@@ -9,7 +9,7 @@ var {
 } = React;
 
 var globals = require('./globals');
-var schedule = require('./tccc19Schedule')
+var schedule = require('./cvcc8Schedule')
 var SessionDetails = require('./sessionDetails');
 var styles = require('./styles');
 var _ = require('lodash');
